@@ -1,0 +1,59 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: http://localhost:4200
+
+[{
+   "img": "https://cdn-images-1.medium.com/max/1600/1*1rOu9arlxUGBN4SL8d32GQ.jpeg",
+   "address":"hotel address",
+   "phone":  "+71111111111",
+   "weather": {
+      "title": "weather today",
+      "icon": "src/images/cloudy.png",
+      "water": 24,
+      "temperature": 30
+   },
+   "social_info":{ 
+      "title": "string",
+      "img": "https://blog.ninja-squad.com/assets/images/angular.png",
+      "followers": 20,
+      "following": 10
+   }, 
+   "type": "string"
+},
+{
+   "img": "https://cdn-images-1.medium.com/max/1600/1*1rOu9arlxUGBN4SL8d32GQ.jpeg",
+   "address":"hotel address",
+   "phone":  "+72222222222",
+   "weather": {
+      "title": "weather today",
+      "icon": "src/images/cloudy.png",
+      "water": 24,
+      "temperature": 30
+   },
+   "social_info":{ 
+      "title": "string",
+      "img": "https://blog.ninja-squad.com/assets/images/angular.png",
+      "followers": 20,
+      "following": 10
+   }, 
+   "type": "string"
+},
+{
+   "img": "https://cdn-images-1.medium.com/max/1600/1*1rOu9arlxUGBN4SL8d32GQ.jpeg",
+   "address":"hotel address",
+   "phone":  "+73333333333",
+   "weather": {
+      "title": "weather today",
+      "icon": "src/images/cloudy.png",
+      "water": 24,
+      "temperature": 30
+   },
+   "social_info":{ 
+      "title": "string",
+      "img": "https://blog.ninja-squad.com/assets/images/angular.png",
+      "followers": 20,
+      "following": 10
+   }, 
+   "type": "string"
+}
+]

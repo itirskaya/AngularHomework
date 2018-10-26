@@ -1,0 +1,15 @@
+<h1>Hot Weather Widget</h1>
+<input id="searchInput" type="text">
+<!-- <pre class="">{{searchTextSequence$|json}}</pre>  -->
+<div class="scrollbar" id="style-3">
+<div class="activity-row" *ngFor="let link of searchTextSequence$">
+  <div class="activity-desc">
+    <h5>{{link.name}}</h5>
+    <h6>{{link.description}}</h6>
+    <a href={{link.url}}>{{link.fullname}}</a>
+  </div>
+  <div class="clear"> </div>
+</div>
+</div>
+
+<!-- <pre>{{data|json}}</pre> -->
